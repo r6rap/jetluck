@@ -1,0 +1,16 @@
+# Dependency folder
+node_modules/
+
+# Sistem file
+.DS_Store
+Thumbs.db
+
+# Log
+npm-debug.log*
+
+# Editor/IDE
+.vscode/
+.idea/
+
+*.bak
+*.tmp

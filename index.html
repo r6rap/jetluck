@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jetLuck</title>
+    <link href="output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/knight.jpg" type="image/png">
+  </head>
+  <body class="bg-black text-white font-mono overflow-x-hidden">
+    <div class="w-full max-w-5xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-12 sm:space-y-16">
+
+      <!-- profile -->
+      <section id="profile" class="text-center space-y-2">
+        <img id="profile-img" src="assets/knight.jpg" alt="Profile" class="w-24 h-24 sm:w-32 sm:h-32 mx-auto rounded-full object-cover border border-gray-600 shadow-md">
+        <h1 id="profile-name" class="text-2xl sm:text-3xl"></h1>
+        <p id="profile-title" class="text-sm sm:text-base text-gray-400"></p>
+      </section>
+
+
+      <!-- social -->
+      <section class="flex justify-center gap-4 flex-wrap" id="socials">
+
+      </section>
+
+      <!-- navbar -->
+      <header class="bg-black border-b border-gray-800 top-0">
+        <nav class="max-w-5xl mx-auto flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base">
+          <div class="font-bold text-base sm:text-lg" id="nav-brand">jetLuck</div>
+          <div class="flex flex-wrap gap-4 sm:gap-6">
+            <a href="#skills" class="text-gray-300 hover:text-white transition">Skills</a>
+            <a href="#projects" class="text-gray-300 hover:text-white transition">Projects</a>
+            <a href="#contact" class="text-gray-300 hover:text-white transition">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+      <!-- intro -->
+      <section id="intro">
+        <h2 class="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 border-b border-gray-700 pb-1">Intro</h2>
+        <p class="text-gray-300 leading-relaxed text-sm sm:text-base">
+          Hi! I'm <span class="text-white font-bold">jetLuck</span> — welcome to my minimalist portfolio. I hope you enjoy browsing through my work and projects.
+        </p>
+      </section>
+
+      <!-- skills -->
+      <section class="scroll-mt-5" id="skills">
+        <h2 class="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 border-b border-gray-700 pb-1">What I Learn</h2>
+        <div class="flex flex-wrap gap-2 sm:gap-3" id="skills-list">
+          <!-- dynamic: skill tags -->
+        </div>
+      </section>
+
+      <!-- projects -->
+      <section class="scroll-mt-5" id="projects">
+        <h2 class="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 border-b border-gray-700 pb-1">Projects</h2>
+        <div class="space-y-4 sm:space-y-6" id="project-list">
+          <!-- dynamic: project cards -->
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact" class="py-6 sm:py-10 max-w-5xl mx-auto px-4 sm:px-6 scroll-mt-5">
+        <h2 class="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 border-b border-gray-700 pb-1">Contact</h2>
+        <p class="text-gray-400 text-sm sm:text-base">
+          You can reach me at <a href="" id="contact-email" class="underline hover:text-white break-all"></a>
+        </p>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

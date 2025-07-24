@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "name": "jetLuck",
+    "title": "A Developer"
+  },
+  "socials": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/r6rap"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/rafifrizal"
+    },
+    {
+      "platform": "X",
+      "url": "https://x.com/rapiprzl"
+    },
+    {
+      "platform": "Discord",
+      "url": "https://discordapp.com/users/984776417583710208"
+    }
+  ],
+  "contact": {
+    "email": "rafifrizali17@gmail.com"
+  },
+  "skills": [
+    "Golang",
+    "JavaScript",
+    "Vue"
+  ],
+  "projects": [
+    {
+      "title": "First web",
+      "description": "A simple project to learn vue",
+      "link": "https://github.com/r6rap/learn-vue",
+      "technologies": ["Vue", "Tailwind"]
+    }
+  ]
+}
