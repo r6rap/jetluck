@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("profile-title").textContent = data.profile.title;
 
     // Socials
-    const socialsContainer = document.querySelector("section > .flex.flex-wrap");
+    const socialsContainer = document.querySelector("#socials");
     socialsContainer.innerHTML = "";
     data.socials.forEach(social => {
       const a = document.createElement("a");
