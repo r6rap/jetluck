@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jetluck</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Jetluck</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US, bahasa-ID</language>
+    <lastBuildDate>Fri, 15 May 2026 18:00:00 +0700</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Why I Started Ngeries</title>
+      <link>http://localhost:1313/why-i-started-ngeries/</link>
+      <pubDate>Fri, 15 May 2026 18:00:00 +0700</pubDate>
+      
+      <guid>http://localhost:1313/why-i-started-ngeries/</guid>
+      <description>&lt;h1 id=&#34;why-i-started-ngeseries&#34;&gt;Why I Started Ngeseries&lt;/h1&gt;
+&lt;p&gt;After finishing my second semester, I decided to build a habit:
+write consistently and learn in public.&lt;/p&gt;
+&lt;p&gt;This website is the result of that decision. I call it &lt;strong&gt;Ngeries&lt;/strong&gt; a small writing series where I document what I learn while studying and building things.&lt;/p&gt;
+&lt;p&gt;It has three tracks:&lt;/p&gt;
+&lt;h2 id=&#34;1-ngemath&#34;&gt;1. Ngemath&lt;/h2&gt;
+&lt;p&gt;Focused on mathematics, especially:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;linear algebra&lt;/li&gt;
+&lt;li&gt;vectors&lt;/li&gt;
+&lt;li&gt;mathematical foundations for Machine Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-ngecp&#34;&gt;2. NgeCP&lt;/h2&gt;
+&lt;p&gt;Focused on competitive programming:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;algorithms&lt;/li&gt;
+&lt;li&gt;problem solving&lt;/li&gt;
+&lt;li&gt;coding patterns&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-ngoding&#34;&gt;3. Ngoding&lt;/h2&gt;
+&lt;p&gt;Focused on software engineering:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;backend development&lt;/li&gt;
+&lt;li&gt;side projects&lt;/li&gt;
+&lt;li&gt;engineering lessons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-writing&#34;&gt;Why writing?&lt;/h2&gt;
+&lt;p&gt;Because writing forces clarity.&lt;/p&gt;
+&lt;p&gt;-&amp;gt; If I can explain something clearly, it usually means I understand it.&lt;/p&gt;
+&lt;p&gt;-&amp;gt; If I cannot, it means I still need to learn.&lt;/p&gt;
+&lt;h2 id=&#34;my-goal&#34;&gt;My goal&lt;/h2&gt;
+&lt;p&gt;Not perfection, train my consistency. One post every three days.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s see where this goes.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    
+  </channel>
+</rss>
