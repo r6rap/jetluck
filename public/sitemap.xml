@@ -2,28 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://r6rap.github.io/jetluck/</loc>
     <lastmod>2026-05-16T13:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ngoding/</loc>
+    <loc>https://r6rap.github.io/jetluck/tags/ngoding/</loc>
     <lastmod>2026-05-16T13:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ngoding-linear-regression/</loc>
+    <loc>https://r6rap.github.io/jetluck/ngoding-linear-regression/</loc>
     <lastmod>2026-05-16T13:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://r6rap.github.io/jetluck/posts/</loc>
     <lastmod>2026-05-16T13:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://r6rap.github.io/jetluck/tags/</loc>
     <lastmod>2026-05-16T13:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/intro/</loc>
+    <loc>https://r6rap.github.io/jetluck/tags/intro/</loc>
     <lastmod>2026-05-15T18:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/why-i-started-ngeries/</loc>
+    <loc>https://r6rap.github.io/jetluck/why-i-started-ngeries/</loc>
     <lastmod>2026-05-15T18:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://r6rap.github.io/jetluck/about/</loc>
     <lastmod>2026-05-15T17:46:14+07:00</lastmod>
+  </url><url>
+    <loc>https://r6rap.github.io/jetluck/categories/</loc>
   </url>
 </urlset>

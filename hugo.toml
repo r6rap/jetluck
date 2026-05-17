@@ -7,8 +7,6 @@ enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
-relativeURLs = true
-
 [params]
   description = "Jetluck Archive"
   copyright = "Copyright © 2020 Jetluck"
