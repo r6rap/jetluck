@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ngoding on Jetluck</title>
-    <link>https://r6rap.github.io/jetluck/tags/ngoding/</link>
+    <link>https://jetluck.my.id/tags/ngoding/</link>
     <description>Recent content in Ngoding on Jetluck</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 16 May 2026 13:34:41 +0700</lastBuildDate>
     
-	<atom:link href="https://r6rap.github.io/jetluck/tags/ngoding/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jetluck.my.id/tags/ngoding/index.xml" rel="self" type="application/rss+xml" />
     
     
     
     <item>
       <title>Ngoding - Linear Regression</title>
-      <link>https://r6rap.github.io/jetluck/ngoding-linear-regression/</link>
+      <link>https://jetluck.my.id/ngoding-linear-regression/</link>
       <pubDate>Sat, 16 May 2026 13:34:41 +0700</pubDate>
       
-      <guid>https://r6rap.github.io/jetluck/ngoding-linear-regression/</guid>
+      <guid>https://jetluck.my.id/ngoding-linear-regression/</guid>
       <description>&lt;p&gt;This is my first ngoding &lt;strong&gt;Ngeries&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I started learning linear regression today, my first impression when studying this was &amp;ldquo;how something small can affect any response?&amp;rdquo; How much does X affect Y? The curved line formed represents the minimum difference between the model prediction and the Y value.&lt;/p&gt;
 &lt;h2 id=&#34;what-i-learned&#34;&gt;What I Learned&lt;/h2&gt;
@@ -40,10 +40,10 @@ Output Y: Accreditation percentage&lt;/p&gt;
     
     <item>
       <title>Why I Started Ngeries</title>
-      <link>https://r6rap.github.io/jetluck/why-i-started-ngeries/</link>
+      <link>https://jetluck.my.id/why-i-started-ngeries/</link>
       <pubDate>Fri, 15 May 2026 18:00:00 +0700</pubDate>
       
-      <guid>https://r6rap.github.io/jetluck/why-i-started-ngeries/</guid>
+      <guid>https://jetluck.my.id/why-i-started-ngeries/</guid>
       <description>&lt;h1 id=&#34;why-i-started-ngeseries&#34;&gt;Why I Started Ngeseries&lt;/h1&gt;
 &lt;p&gt;After finishing my second semester, I decided to build a habit:
 write consistently and learn in public.&lt;/p&gt;
