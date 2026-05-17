@@ -8,12 +8,11 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 relativeURLs = true
-canonifyURLs = true
 
 [params]
   description = "Jetluck Archive"
   copyright = "Copyright © 2020 Jetluck"
-  dark = "auto"
+  dark = "on"
   highlight = true
 
 [menu]

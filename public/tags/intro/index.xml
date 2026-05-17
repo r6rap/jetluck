@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/intro/</link>
     <description>Recent content in Intro on Jetluck</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US, bahasa-ID</language>
+    <language>en-US</language>
     <lastBuildDate>Fri, 15 May 2026 18:00:00 +0700</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
@@ -19,14 +19,20 @@
       
       <guid>http://localhost:1313/ngoding-linear-regression/</guid>
       <description>&lt;p&gt;This is my first ngoding &lt;strong&gt;Ngeries&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I started learning linear regression today, my first impression when studying this was &amp;ldquo;how something small can affect any response?&amp;rdquo; How much influence does X have on Y? The curved line formed represents the minimum difference between the model prediction and the Y value.&lt;/p&gt;
+&lt;p&gt;I started learning linear regression today, my first impression when studying this was &amp;ldquo;how something small can affect any response?&amp;rdquo; How much does X affect Y? The curved line formed represents the minimum difference between the model prediction and the Y value.&lt;/p&gt;
 &lt;h2 id=&#34;what-i-learned&#34;&gt;What I Learned&lt;/h2&gt;
 &lt;p&gt;The main idea is to find parameters that minimize the difference between predictions and actual data. For example, in my college assignment:&lt;/p&gt;
 &lt;p&gt;Input X: Number of hospitals implementing full RME
 Output Y: Accreditation percentage&lt;/p&gt;
-&lt;p&gt;This model studies the equation f(x) = wx + b
-w is the weight used to determine the slope of the line; this number determines how much influence variable x has on the output f(x).
-b is the starting point for values ​​when x is 0&lt;/p&gt;
+&lt;p&gt;This model studies the equation f(x) = wx + b&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;w is the weight used to determine the slope of the line; this number determines how much influence variable x has on the output f(x).&lt;/li&gt;
+&lt;li&gt;b is the starting point for values ​​when x is 0.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is my college assignment while studying linear regression:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/r6rap/linear_regression&#34;&gt;https://github.com/r6rap/linear_regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

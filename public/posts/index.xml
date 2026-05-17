@@ -5,7 +5,7 @@
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Jetluck</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US, bahasa-ID</language>
+    <language>en-US</language>
     <lastBuildDate>Sat, 16 May 2026 13:34:41 +0700</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
