@@ -20,6 +20,7 @@ My current focus:
 
 ## Connect
 
+- X: https://x.com/xjetluck
 - GitHub: https://github.com/r6rap
 - LinkedIn: https://linkedin.com/in/rapiprzl
 

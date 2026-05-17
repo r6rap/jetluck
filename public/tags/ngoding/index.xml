@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Intro on Jetluck</title>
-    <link>http://localhost:1313/tags/intro/</link>
-    <description>Recent content in Intro on Jetluck</description>
+    <title>Ngoding on Jetluck</title>
+    <link>http://localhost:1313/tags/ngoding/</link>
+    <description>Recent content in Ngoding on Jetluck</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US, bahasa-ID</language>
-    <lastBuildDate>Fri, 15 May 2026 18:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 13:34:41 +0700</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/ngoding/index.xml" rel="self" type="application/rss+xml" />
     
     
     

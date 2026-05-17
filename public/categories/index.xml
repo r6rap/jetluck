@@ -11,17 +11,75 @@
     
     
     
+    <item>
+      <title>Ngoding - Linear Regression</title>
+      <link>http://localhost:1313/ngoding-linear-regression/</link>
+      <pubDate>Sat, 16 May 2026 13:34:41 +0700</pubDate>
+      
+      <guid>http://localhost:1313/ngoding-linear-regression/</guid>
+      <description>&lt;p&gt;This is my first ngoding &lt;strong&gt;Ngeries&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I started learning linear regression today, my first impression when studying this was &amp;ldquo;how something small can affect any response?&amp;rdquo; How much does X affect Y? The curved line formed represents the minimum difference between the model prediction and the Y value.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-learned&#34;&gt;What I Learned&lt;/h2&gt;
+&lt;p&gt;The main idea is to find parameters that minimize the difference between predictions and actual data. For example, in my college assignment:&lt;/p&gt;
+&lt;p&gt;Input X: Number of hospitals implementing full RME
+Output Y: Accreditation percentage&lt;/p&gt;
+&lt;p&gt;This model studies the equation f(x) = wx + b&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;w is the weight used to determine the slope of the line; this number determines how much influence variable x has on the output f(x).&lt;/li&gt;
+&lt;li&gt;b is the starting point for values ​​when x is 0.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is my college assignment while studying linear regression:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/r6rap/linear_regression&#34;&gt;https://github.com/r6rap/linear_regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
     
     
     <item>
-      <title>My Post</title>
-      <link>http://localhost:1313/my-post/</link>
-      <pubDate>Fri, 15 May 2026 17:45:48 +0700</pubDate>
+      <title>Why I Started Ngeries</title>
+      <link>http://localhost:1313/why-i-started-ngeries/</link>
+      <pubDate>Fri, 15 May 2026 18:00:00 +0700</pubDate>
       
-      <guid>http://localhost:1313/my-post/</guid>
-      <description>&lt;p&gt;This is all &lt;strong&gt;Ngeries&lt;/strong&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/why-i-started-ngeries/</guid>
+      <description>&lt;h1 id=&#34;why-i-started-ngeseries&#34;&gt;Why I Started Ngeseries&lt;/h1&gt;
+&lt;p&gt;After finishing my second semester, I decided to build a habit:
+write consistently and learn in public.&lt;/p&gt;
+&lt;p&gt;This website is the result of that decision. I call it &lt;strong&gt;Ngeries&lt;/strong&gt; a small writing series where I document what I learn while studying and building things.&lt;/p&gt;
+&lt;p&gt;It has three tracks:&lt;/p&gt;
+&lt;h2 id=&#34;1-ngemath&#34;&gt;1. Ngemath&lt;/h2&gt;
+&lt;p&gt;Focused on mathematics, especially:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;linear algebra&lt;/li&gt;
+&lt;li&gt;vectors&lt;/li&gt;
+&lt;li&gt;mathematical foundations for Machine Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-ngecp&#34;&gt;2. NgeCP&lt;/h2&gt;
+&lt;p&gt;Focused on competitive programming:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;algorithms&lt;/li&gt;
+&lt;li&gt;problem solving&lt;/li&gt;
+&lt;li&gt;coding patterns&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-ngoding&#34;&gt;3. Ngoding&lt;/h2&gt;
+&lt;p&gt;Focused on software engineering:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;backend development&lt;/li&gt;
+&lt;li&gt;side projects&lt;/li&gt;
+&lt;li&gt;engineering lessons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-writing&#34;&gt;Why writing?&lt;/h2&gt;
+&lt;p&gt;Because writing forces clarity.&lt;/p&gt;
+&lt;p&gt;-&amp;gt; If I can explain something clearly, it usually means I understand it.&lt;/p&gt;
+&lt;p&gt;-&amp;gt; If I cannot, it means I still need to learn.&lt;/p&gt;
+&lt;h2 id=&#34;my-goal&#34;&gt;My goal&lt;/h2&gt;
+&lt;p&gt;Not perfection, train my consistency. One post every three days.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s see where this goes.&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     
   </channel>
