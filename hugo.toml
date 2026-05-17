@@ -2,9 +2,13 @@ baseURL = "https://r6rap.github.io/jetluck/"
 title = "Jetluck"
 theme = "etch"
 languageCode = "en-US"
+
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+
+relativeURLs = true
+canonifyURLs = true
 
 [params]
   description = "Jetluck Archive"
@@ -17,7 +21,7 @@ pygmentsUseClasses = true
     identifier = "posts"
     name = "posts"
     title = "posts"
-    url = "/"
+    url = "/posts/"
     weight = 10
 
   [[menu.main]]
