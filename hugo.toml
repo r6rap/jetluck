@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 
 [params]
   description = "Jetluck Archive"
-  copyright = "Copyright © 2020 Jetluck"
+  copyright = "Copyright © 2026 Jetluck - Powered by Hugo & Etch"
   dark = "on"
   highlight = true
 

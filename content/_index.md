@@ -3,7 +3,7 @@ title: "Home"
 ---
 JetLuck
 
-Software Engineer - AI Student - Newbie
+Software Engineer focused on backend development and machine learning.
 
 Building software, learning in public,
 and documenting the journey.
