@@ -3,7 +3,16 @@ title: "Home"
 ---
 JetLuck
 
-Software Engineer focused on backend development and machine learning.
+Backend Engineer • Machine Learning
 
-Building software, learning in public,
-and documenting the journey.
+This site is my public notebook.
+
+Here you'll find my notes, experiments, and projects while learning:
+
+• Machine Learning
+• Mathematics
+• Backend Engineering
+• Data Engineering
+• System Design
+
+Latest Notes ↓

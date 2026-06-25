@@ -6,8 +6,48 @@
     <description>Recent content in Categories on Jetluck</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Wed, 24 Jun 2026 09:46:41 +0700</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Code - Decision Tree</title>
+      <link>http://localhost:1313/code-decision-tree/</link>
+      <pubDate>Wed, 24 Jun 2026 09:46:41 +0700</pubDate>
+      
+      <guid>http://localhost:1313/code-decision-tree/</guid>
+      <description>&lt;p&gt;Today I learn Decision Tree&lt;/p&gt;
+&lt;h2 id=&#34;fundamental&#34;&gt;Fundamental&lt;/h2&gt;
+&lt;p&gt;Bayangkan kita punya kumpulan data dengan berbagai fitur. Decision Tree bekerja dengan cara membagi ruang fitur tersebut menjadi beberapa wilayah (&lt;em&gt;regions&lt;/em&gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tujuannya?&lt;/strong&gt; Membuat variasi target di setiap wilayah menjadi sekecil mungkin, agar data yang berada di wilayah yang sama memiliki nilai target &lt;strong&gt;semirip mungkin&lt;/strong&gt; (homogen).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cara-kerja&#34;&gt;Cara kerja&lt;/h2&gt;
+&lt;p&gt;Algoritma ini bergerak dari atas ke bawah, mulai dari akar paling atas (&lt;strong&gt;Root Node&lt;/strong&gt;) hingga titik akhir (&lt;strong&gt;Leaf Node&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;Untuk menentukan di mana pembagi ruang fitur terbaik harus dibuat, algoritma mencari pembagian yang menghasilkan &lt;strong&gt;WMSE (Weighted Mean Squared Error)&lt;/strong&gt; paling kecil.&lt;/p&gt;
+&lt;p&gt;Secara matematis, untuk setiap opsi percabangan, kita menghitung total &lt;em&gt;error&lt;/em&gt;-nya:&lt;/p&gt;
+&lt;p&gt;$$\text{WMSE} = \frac{N_L}{N} \text{MSE}_L + \frac{N_R}{N} \text{MSE}_R$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$N_L$ dan $N_R$: Jumlah sampel di cabang kiri dan kanan.&lt;/li&gt;
+&lt;li&gt;$N$: Total sampel sebelum dipisah.&lt;/li&gt;
+&lt;li&gt;$\text{MSE}_L$ dan $\text{MSE}_R$: Tingkat &lt;em&gt;error&lt;/em&gt; (Rata-rata Kuadrat Galat) di masing-masing cabang.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Decision Tree akan memilih fitur dan titik pembagi yang menghasilkan &lt;strong&gt;WMSE terendah&lt;/strong&gt;, itu berarti pembagian tersebut adalah yang paling akurat untuk memisahkan data&lt;/p&gt;
+&lt;h2 id=&#34;alur-dari-root-ke-leaf&#34;&gt;Alur dari Root ke Leaf&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Root Node (Akar):&lt;/strong&gt; Fitur pertama yang paling efektif memotong data menjadi dua kelompok besar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Internal Node (Cabang):&lt;/strong&gt; Evaluasi kondisi berikutnya pada sub-kelompok data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leaf Node (Daun):&lt;/strong&gt; Titik akhir di mana keputusan atau nilai prediksi akhir diberikan. Di titik ini, ruang fitur sudah tidak dibagi lagi.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+&lt;p&gt;This is my college assignment while studying decision tree:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/r6rap/machine_learning&#34;&gt;https://github.com/r6rap/machine_learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     
     
@@ -19,15 +59,27 @@
       <guid>http://localhost:1313/code-linear-regression/</guid>
       <description>&lt;p&gt;This is my first Code&lt;/p&gt;
 &lt;p&gt;I started learning simple linear regression today, my first impression when studying this was &amp;ldquo;how something small can affect any response?&amp;rdquo; How much does X affect Y? The curved line formed represents the minimum difference between the model prediction and the Y value.&lt;/p&gt;
-&lt;h2 id=&#34;what-i-learned&#34;&gt;What I Learned&lt;/h2&gt;
-&lt;p&gt;The main idea is to find parameters that minimize the difference between predictions and actual data. For example, in my college assignment:&lt;/p&gt;
-&lt;p&gt;Input X: Number of hospitals implementing full RME
-Output Y: Accreditation percentage&lt;/p&gt;
-&lt;p&gt;This model studies the equation f(x) = wx + b&lt;/p&gt;
+&lt;h2 id=&#34;fundamental&#34;&gt;Fundamental&lt;/h2&gt;
+&lt;p&gt;Inti utama dari Linear Regression adalah menggambar sebuah garis lurus di antara sekumpulan titik data. Garis ini merepresentasikan prediksi model kita.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;w is the weight used to determine the slope of the line; this number determines how much influence variable x has on the output f(x).&lt;/li&gt;
-&lt;li&gt;b is the starting point for values ​​when x is 0.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tujuannya?&lt;/strong&gt; Kita ingin jarak atau selisih antara titik data asli (aktual) dengan garis prediksi kita bernilai &lt;strong&gt;seminimal mungkin&lt;/strong&gt;. Semakin kecil total selisihnya, semakin akurat model kita untuk menebak masa depan.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;cara-kerja&#34;&gt;Cara kerja&lt;/h2&gt;
+&lt;p&gt;Model ini mempelajari hubungan antar data melalui persamaan garis lurus:&lt;/p&gt;
+&lt;p&gt;$$f(x) = wx + b$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;$x$ (Fitur/Input):&lt;/strong&gt; Variabel bebas yang kita gunakan untuk memprediksi sesuatu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$w$ (Weight/Bobot):&lt;/strong&gt; Nilai yang menentukan kemiringan (&lt;em&gt;slope&lt;/em&gt;) garis. Angka inilah yang menjawab pertanyaan kita di awal: &lt;em&gt;seberapa besar pengaruh variabel $x$ terhadap output?&lt;/em&gt; Jika $w$ besar, artinya perubahan kecil pada $x$ berdampak besar pada hasil akhirnya.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$b$ (Bias/Intercept):&lt;/strong&gt; Titik potong garis pada sumbu Y ketika nilai $x$ adalah 0. Ini adalah nilai dasar/titik mulai prediksi kita.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;college-assignment&#34;&gt;College Assignment&lt;/h2&gt;
+&lt;p&gt;Di sini, saya ingin melihat apakah adopsi teknologi (RME) mempengaruhi akreditasi rumah sakit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Input ($X$):&lt;/strong&gt; Jumlah rumah sakit yang sudah menerapkan RME (&lt;em&gt;Rekam Medis Elektronik&lt;/em&gt;) secara penuh.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output ($Y$):&lt;/strong&gt; Persentase akreditasi rumah sakit tersebut.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Melalui Linear Regression, model akan mencari nilai $w$ dan $b$ yang paling pas, sehingga kita bisa memprediksi: &lt;em&gt;&amp;ldquo;Jika ada $n$ rumah sakit lagi yang menerapkan RME, seberapa besar persentase akreditasi total akan naik?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
 &lt;p&gt;This is my college assignment while studying simple linear regression:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/r6rap/linear_regression&#34;&gt;https://github.com/r6rap/linear_regression&lt;/a&gt;&lt;/li&gt;

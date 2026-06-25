@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jetluck Archive">
+    
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://localhost:1313/code-decision-tree/" />
+    <title>Code - Decision Tree</title>
+</head>
+<body><header id="banner">
+    <h2><a href="/">Jetluck</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/posts/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Code - Decision Tree</h1>
+
+        <div class="post-meta">
+
+            
+                
+                    <time>June 24, 2026</time>
+                
+            
+
+            
+            <div class="categories">
+                Categories:
+                
+                    <a href="/categories/machine-learning">machine-learning</a>
+                
+            </div>
+            
+
+            
+            <div class="tags">
+                Tags:
+                
+                    <a href="/tags/code">#code</a>
+                
+                    <a href="/tags/machine-learning">#machine-learning</a>
+                
+                    <a href="/tags/regression">#regression</a>
+                
+            </div>
+            
+
+        </div>
+    </header>
+
+    <p>Today I learn Decision Tree Regression</p>
+<h2 id="fundamental">Fundamental</h2>
+<p>Bayangkan kita punya kumpulan data dengan berbagai fitur. Decision Tree Regression bekerja dengan cara membagi ruang fitur tersebut menjadi beberapa wilayah (<em>regions</em>).</p>
+<ul>
+<li><strong>Tujuannya?</strong> Membuat variasi target di setiap wilayah menjadi sekecil mungkin, agar data yang berada di wilayah yang sama memiliki nilai target <strong>semirip mungkin</strong> (homogen).</li>
+</ul>
+<h2 id="cara-kerja">Cara kerja</h2>
+<p>Algoritma ini bergerak dari atas ke bawah, mulai dari akar paling atas (<strong>Root Node</strong>) hingga titik akhir (<strong>Leaf Node</strong>).</p>
+<p>Untuk menentukan di mana pembagi ruang fitur terbaik harus dibuat, algoritma mencari pembagian yang menghasilkan <strong>WMSE (Weighted Mean Squared Error)</strong> paling kecil.</p>
+<p>Secara matematis, untuk setiap opsi percabangan, kita menghitung total <em>error</em>-nya:</p>
+<p>$$\text{WMSE} = \frac{N_L}{N} \text{MSE}_L + \frac{N_R}{N} \text{MSE}_R$$</p>
+<ul>
+<li>$N_L$ dan $N_R$: Jumlah sampel di cabang kiri dan kanan.</li>
+<li>$N$: Total sampel sebelum dipisah.</li>
+<li>$\text{MSE}_L$ dan $\text{MSE}_R$: Tingkat <em>error</em> (Rata-rata Kuadrat Galat) di masing-masing cabang.</li>
+</ul>
+<p>Decision Tree akan memilih fitur dan titik pembagi yang menghasilkan <strong>WMSE terendah</strong>, itu berarti pembagian tersebut adalah yang paling akurat untuk memisahkan data</p>
+<h2 id="alur-dari-root-ke-leaf">Alur dari Root ke Leaf</h2>
+<ol>
+<li><strong>Root Node (Akar):</strong> Fitur pertama yang paling efektif memotong data menjadi dua kelompok besar.</li>
+<li><strong>Internal Node (Cabang):</strong> Evaluasi kondisi berikutnya pada sub-kelompok data.</li>
+<li><strong>Leaf Node (Daun):</strong> Titik akhir di mana keputusan atau nilai prediksi akhir diberikan. Di titik ini, ruang fitur sudah tidak dibagi lagi.</li>
+</ol>
+<h2 id="code">Code</h2>
+<p>This is my college assignment while studying decision tree rergression:</p>
+<ul>
+<li><a href="https://github.com/r6rap/machine_learning">https://github.com/r6rap/machine_learning</a></li>
+</ul>
+
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2026 Jetluck - Powered by Hugo &amp; Etch
+</footer>
+</body>
+</html>

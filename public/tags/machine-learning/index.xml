@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jetluck</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Jetluck</description>
+    <title>Machine-Learning on Jetluck</title>
+    <link>http://localhost:1313/tags/machine-learning/</link>
+    <description>Recent content in Machine-Learning on Jetluck</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 24 Jun 2026 09:46:41 +0700</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -18,9 +18,9 @@
       <pubDate>Wed, 24 Jun 2026 09:46:41 +0700</pubDate>
       
       <guid>http://localhost:1313/code-decision-tree/</guid>
-      <description>&lt;p&gt;Today I learn Decision Tree Regression&lt;/p&gt;
+      <description>&lt;p&gt;Today I learn Decision Tree&lt;/p&gt;
 &lt;h2 id=&#34;fundamental&#34;&gt;Fundamental&lt;/h2&gt;
-&lt;p&gt;Bayangkan kita punya kumpulan data dengan berbagai fitur. Decision Tree Regression bekerja dengan cara membagi ruang fitur tersebut menjadi beberapa wilayah (&lt;em&gt;regions&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Bayangkan kita punya kumpulan data dengan berbagai fitur. Decision Tree bekerja dengan cara membagi ruang fitur tersebut menjadi beberapa wilayah (&lt;em&gt;regions&lt;/em&gt;).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tujuannya?&lt;/strong&gt; Membuat variasi target di setiap wilayah menjadi sekecil mungkin, agar data yang berada di wilayah yang sama memiliki nilai target &lt;strong&gt;semirip mungkin&lt;/strong&gt; (homogen).&lt;/li&gt;
 &lt;/ul&gt;
@@ -42,7 +42,7 @@
 &lt;li&gt;&lt;strong&gt;Leaf Node (Daun):&lt;/strong&gt; Titik akhir di mana keputusan atau nilai prediksi akhir diberikan. Di titik ini, ruang fitur sudah tidak dibagi lagi.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-&lt;p&gt;This is my college assignment while studying decision tree rergression:&lt;/p&gt;
+&lt;p&gt;This is my college assignment while studying decision tree:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/r6rap/machine_learning&#34;&gt;https://github.com/r6rap/machine_learning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

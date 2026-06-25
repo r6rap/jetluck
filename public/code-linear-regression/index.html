@@ -1,5 +1,18 @@
 <!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en">
+    <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Jetluck Archive">
@@ -27,24 +40,68 @@
 <article>
     <header id="post-header">
         <h1>Code - Linear Regression</h1>
-        <div>
-                <time>May 16, 2026</time>
+
+        <div class="post-meta">
+
+            
+                
+                    <time>May 16, 2026</time>
+                
+            
+
+            
+            <div class="categories">
+                Categories:
+                
+                    <a href="/categories/machine-learning">machine-learning</a>
+                
             </div>
-    </header><p>This is my first Code</p>
+            
+
+            
+            <div class="tags">
+                Tags:
+                
+                    <a href="/tags/code">#code</a>
+                
+                    <a href="/tags/machine-learning">#machine-learning</a>
+                
+                    <a href="/tags/regression">#regression</a>
+                
+            </div>
+            
+
+        </div>
+    </header>
+
+    <p>This is my first Code</p>
 <p>I started learning simple linear regression today, my first impression when studying this was &ldquo;how something small can affect any response?&rdquo; How much does X affect Y? The curved line formed represents the minimum difference between the model prediction and the Y value.</p>
-<h2 id="what-i-learned">What I Learned</h2>
-<p>The main idea is to find parameters that minimize the difference between predictions and actual data. For example, in my college assignment:</p>
-<p>Input X: Number of hospitals implementing full RME
-Output Y: Accreditation percentage</p>
-<p>This model studies the equation f(x) = wx + b</p>
+<h2 id="fundamental">Fundamental</h2>
+<p>Inti utama dari Linear Regression adalah menggambar sebuah garis lurus di antara sekumpulan titik data. Garis ini merepresentasikan prediksi model kita.</p>
 <ul>
-<li>w is the weight used to determine the slope of the line; this number determines how much influence variable x has on the output f(x).</li>
-<li>b is the starting point for values ​​when x is 0.</li>
+<li><strong>Tujuannya?</strong> Kita ingin jarak atau selisih antara titik data asli (aktual) dengan garis prediksi kita bernilai <strong>seminimal mungkin</strong>. Semakin kecil total selisihnya, semakin akurat model kita untuk menebak masa depan.</li>
 </ul>
+<h2 id="cara-kerja">Cara kerja</h2>
+<p>Model ini mempelajari hubungan antar data melalui persamaan garis lurus:</p>
+<p>$$f(x) = wx + b$$</p>
+<ul>
+<li><strong>$x$ (Fitur/Input):</strong> Variabel bebas yang kita gunakan untuk memprediksi sesuatu.</li>
+<li><strong>$w$ (Weight/Bobot):</strong> Nilai yang menentukan kemiringan (<em>slope</em>) garis. Angka inilah yang menjawab pertanyaan kita di awal: <em>seberapa besar pengaruh variabel $x$ terhadap output?</em> Jika $w$ besar, artinya perubahan kecil pada $x$ berdampak besar pada hasil akhirnya.</li>
+<li><strong>$b$ (Bias/Intercept):</strong> Titik potong garis pada sumbu Y ketika nilai $x$ adalah 0. Ini adalah nilai dasar/titik mulai prediksi kita.</li>
+</ul>
+<h2 id="college-assignment">College Assignment</h2>
+<p>Di sini, saya ingin melihat apakah adopsi teknologi (RME) mempengaruhi akreditasi rumah sakit:</p>
+<ul>
+<li><strong>Input ($X$):</strong> Jumlah rumah sakit yang sudah menerapkan RME (<em>Rekam Medis Elektronik</em>) secara penuh.</li>
+<li><strong>Output ($Y$):</strong> Persentase akreditasi rumah sakit tersebut.</li>
+</ul>
+<p>Melalui Linear Regression, model akan mencari nilai $w$ dan $b$ yang paling pas, sehingga kita bisa memprediksi: <em>&ldquo;Jika ada $n$ rumah sakit lagi yang menerapkan RME, seberapa besar persentase akreditasi total akan naik?&rdquo;</em></p>
+<h2 id="code">Code</h2>
 <p>This is my college assignment while studying simple linear regression:</p>
 <ul>
 <li><a href="https://github.com/r6rap/linear_regression">https://github.com/r6rap/linear_regression</a></li>
 </ul>
+
 </article>
 
         </main><footer id="footer">
